@@ -21,7 +21,7 @@
                         <input type="text" name="your_name">
                         <br>
                         件名
-                        <input type="text" namr="title">
+                        <input type="text" name="title">
                         <br>
                         メールアドレス
                         <input type="email" name="email">
@@ -30,8 +30,8 @@
                         <input type="url" name="url">
                         <br>
                         性別
-                        <input type="radio" name="gender" valu="0">男性</input>
-                        <input type="radio" name="gender" valu="1">女性</input>
+                        <input type="radio" name="gender" value="0">男性</input>
+                        <input type="radio" name="gender" value="1">女性</input>
                         <br>
                         年齢
                         <select name="age">
@@ -45,7 +45,7 @@
                         </select>
                         <br>
                         お問い合わせ内容
-                        <textarea name="content"></textarea>
+                        <textarea name="contact"></textarea>
                         <br>
 
                         <input type="checkbox" name="caution" value="1">注意事項に同意</inut>
