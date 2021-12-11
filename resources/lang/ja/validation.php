@@ -118,6 +118,14 @@ return [
 
     'attributes' => [
         'password'=>'パスワード',
+        'your_name' => '氏名',
+        'title' => '件名',
+        'email' => 'メールアドレス',
+        'url' => 'ホームページ',
+        'gender' => '性別',
+        'age' => '年齢',
+        'contact' => 'お問い合わせ',
+        'caution' => '注意事項',
     ],
 
 ];
