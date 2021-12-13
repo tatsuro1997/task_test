@@ -14,7 +14,9 @@ class ShopController extends Controller
 
         $shop = Shop::find(3)->area->name;
 
-        dd($area_tokyo, $shop);
+        $shop_route = Shop::find(1)->routes()->get();
+
+        dd($area_tokyo, $shop, $shop_route);
 
     }
 }
